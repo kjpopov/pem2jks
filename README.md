@@ -1,7 +1,6 @@
 # pem2jks
 Convert SSL certificate from .pem to .jks format
 
-
 ### Create a PKCS12 file containing full chain and private key
 ```bash
 openssl pkcs12 -export -in fullchain.pem -inkey privkey.pem -out pkcs.p12 -name NAME
